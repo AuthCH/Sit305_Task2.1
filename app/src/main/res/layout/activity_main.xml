@@ -16,28 +16,34 @@
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Converter" />
+            android:text="Enter number"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/input"
             android:layout_width="match_parent"
             android:layout_height="69dp"
-            android:hint="Enter no." />
+            android:hint="Enter here" />
+
         <TextView
             android:id="@+id/Sourceunit"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Source unit" />
+            android:layout_height="32dp"
+            android:text="Source unit"
+            android:textStyle="bold" />
 
         <Spinner
             android:id="@+id/sspinner"
             android:layout_width="match_parent"
-            android:layout_height="54dp" />
+            android:layout_height="50dp" />
+
         <TextView
             android:id="@+id/DestinationUnit"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Destination unit" />
+            android:layout_height="31dp"
+            android:text="Destination unit"
+            android:textStyle="bold" />
 
         <Spinner
             android:id="@+id/dspinner"
@@ -51,9 +57,12 @@
             android:text="Convert"/>
 
         <TextView
+            android:id="@+id/showresult"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/showresult"/>
+            android:textColor="#070707"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
 
 

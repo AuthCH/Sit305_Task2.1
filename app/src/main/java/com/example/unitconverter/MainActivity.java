@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
                     String Strresult = Double.toString(result);
                     resulttext.setText(Strresult);
                 }
-                else if (sspinner.getSelectedItem().toString() == "Foot" && dspinner.getSelectedItem().toString() == "inches")
+                else if (sspinner.getSelectedItem().toString() == "Foot" && dspinner.getSelectedItem().toString() == "Inches")
                 {
                     result = number * 12;
                     String Strresult = Double.toString(result);

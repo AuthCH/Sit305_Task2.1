@@ -23,7 +23,7 @@
         <EditText
             android:id="@+id/input"
             android:layout_width="match_parent"
-            android:layout_height="69dp"
+            android:layout_height="wrap_content"
             android:hint="Enter here" />
 
         <TextView
@@ -36,7 +36,7 @@
         <Spinner
             android:id="@+id/sspinner"
             android:layout_width="match_parent"
-            android:layout_height="50dp" />
+            android:layout_height="wrap_content" />
 
         <TextView
             android:id="@+id/DestinationUnit"
@@ -48,7 +48,7 @@
         <Spinner
             android:id="@+id/dspinner"
             android:layout_width="match_parent"
-            android:layout_height="60dp" />
+            android:layout_height="34dp" />
 
         <Button
             android:layout_width="match_parent"
